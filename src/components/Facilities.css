@@ -1,0 +1,371 @@
+.facilities-page {
+  padding-top: 80px;
+}
+
+.facilities-hero {
+  background: linear-gradient(135deg, #3498db 0%, #27ae60 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.facilities-hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.facilities-hero-content p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.facilities-main {
+  padding: 80px 0;
+  background: white;
+}
+
+.facilities-intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.facilities-intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.facilities-intro p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.facility-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+  position: relative;
+  overflow: hidden;
+}
+
+.facility-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.facility-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.facility-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 25px;
+  background: linear-gradient(135deg, #3498db 0%, #27ae60 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.facility-card:hover .facility-icon {
+  transform: scale(1.1);
+}
+
+.facility-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.facility-description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.facility-features {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.facility-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.facility-features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.facility-features li i {
+  color: #3498db;
+  margin-right: 10px;
+  font-size: 0.8rem;
+}
+
+.clinic-tour {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.clinic-tour h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tour-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.tour-text h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.tour-text p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.tour-highlights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.highlight-item i {
+  color: #3498db;
+  font-size: 1.2rem;
+}
+
+.highlight-item span {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.tour-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-image i {
+  font-size: 12rem;
+  color: #3498db;
+  opacity: 0.3;
+}
+
+.safety-standards {
+  padding: 80px 0;
+  background: white;
+}
+
+.safety-standards h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.standards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.standard-card {
+  text-align: center;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.standard-card:hover {
+  transform: translateY(-5px);
+}
+
+.standard-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  background: linear-gradient(135deg, #3498db 0%, #27ae60 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.standard-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.standard-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.visit-cta {
+  background: linear-gradient(135deg, #3498db 0%, #27ae60 100%);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.visit-cta .cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.visit-cta .cta-content h2::after {
+  background: white;
+}
+
+.visit-cta .cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.visit-cta .cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.visit-cta .cta-buttons .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  padding: 15px 30px;
+}
+
+.visit-cta .cta-buttons .btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.visit-cta .cta-buttons .btn-secondary:hover {
+  background: white;
+  color: #4facfe;
+}
+
+@media (max-width: 768px) {
+  .facilities-hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .facilities-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .facility-card {
+    padding: 30px 20px;
+  }
+
+  .tour-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .tour-highlights {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .tour-image i {
+    font-size: 8rem;
+  }
+
+  .standards-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .visit-cta .cta-content h2 {
+    font-size: 2rem;
+  }
+
+  .visit-cta .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .facilities-hero {
+    padding: 60px 0;
+  }
+
+  .facilities-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .facility-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .tour-text h3 {
+    font-size: 1.8rem;
+  }
+
+  .visit-cta .cta-content h2 {
+    font-size: 1.8rem;
+  }
+} 

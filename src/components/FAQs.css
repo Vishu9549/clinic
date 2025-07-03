@@ -1,0 +1,316 @@
+.faqs-page {
+  padding-top: 80px;
+}
+
+.faqs-hero {
+  background: linear-gradient(135deg, #3498db 0%, #27ae60 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.faqs-hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.faqs-hero-content p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.faqs-main {
+  padding: 80px 0;
+  background: white;
+}
+
+.faqs-intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.faqs-intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.faqs-intro p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.faqs-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.faq-item:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.faq-question {
+  padding: 25px 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.faq-question:hover {
+  background: #f8f9fa;
+}
+
+.faq-question.active {
+  background: linear-gradient(135deg, #3498db 0%, #27ae60 100%);
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.faq-question h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+  padding-right: 20px;
+}
+
+.faq-question i {
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.faq-question i.rotated {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: #f8f9fa;
+}
+
+.faq-answer.active {
+  max-height: 300px;
+  padding: 25px 30px;
+}
+
+.faq-answer p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.contact-info {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.contact-info-content {
+  text-align: center;
+}
+
+.contact-info-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-info-content > p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.contact-method {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.contact-method:hover {
+  transform: translateY(-5px);
+}
+
+.method-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  background: linear-gradient(135deg, #3498db 0%, #27ae60 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.contact-method h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.contact-method p {
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.method-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.method-link:hover {
+  color: #2c3e50;
+}
+
+.appointment-cta {
+  background: linear-gradient(135deg, #3498db 0%, #27ae60 100%);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.appointment-cta .cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.appointment-cta .cta-content h2::after {
+  background: white;
+}
+
+.appointment-cta .cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.appointment-cta .cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.appointment-cta .cta-buttons .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  padding: 15px 30px;
+}
+
+.appointment-cta .cta-buttons .btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.appointment-cta .cta-buttons .btn-secondary:hover {
+  background: white;
+  color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .faqs-hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .faqs-container {
+    padding: 0 20px;
+  }
+
+  .faq-question {
+    padding: 20px 25px;
+  }
+
+  .faq-question h3 {
+    font-size: 1.1rem;
+  }
+
+  .faq-answer.active {
+    padding: 20px 25px;
+  }
+
+  .contact-methods {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-method {
+    padding: 30px 20px;
+  }
+
+  .appointment-cta .cta-content h2 {
+    font-size: 2rem;
+  }
+
+  .appointment-cta .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .faqs-hero {
+    padding: 60px 0;
+  }
+
+  .faqs-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .faq-question {
+    padding: 15px 20px;
+  }
+
+  .faq-question h3 {
+    font-size: 1rem;
+  }
+
+  .faq-answer.active {
+    padding: 15px 20px;
+  }
+
+  .appointment-cta .cta-content h2 {
+    font-size: 1.8rem;
+  }
+} 
